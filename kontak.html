@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak & Konfirmasi - Beauty Glow</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff6fa1, #ffb6c1);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #d63384;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-family: Arial, sans-serif;
+    }
+
+    textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    .btn {
+      width: 100%;
+      margin-top: 20px;
+      padding: 12px;
+      background: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #e91e63;
+    }
+
+    .info {
+      text-align: center;
+      margin-top: 20px;
+      color: #555;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      background: #ffb6c1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Beauty Glow Makeup</h1>
+    <p>Konfirmasi Pembayaran & Kontak</p>
+  </header>
+
+  <div class="container">
+
+    <h2>Form Konfirmasi</h2>
+
+    <label>Nama Lengkap</label>
+    <input type="text" placeholder="Masukkan nama lengkap">
+
+    <label>Nomor WhatsApp</label>
+    <input type="text" placeholder="08xxxxxxxxxx">
+
+    <label>Pesan / Produk yang dipesan</label>
+    <textarea placeholder="Contoh: Lipstik Matte 1 pcs"></textarea>
+
+    <label>Bukti Transfer</label>
+    <input type="file" accept="image/*">
+
+    <button class="btn" onclick="alert('Konfirmasi berhasil dikirim!')">
+      Kirim Konfirmasi
+    </button>
+
+    <div class="info">
+      Pastikan data yang Anda kirim benar agar pesanan segera diproses.<br><br>
+      📞 WhatsApp: <a href="https://wa.me/6281234567890">Hubungi Admin</a><br>
+      📷 Instagram: @beautyglow.id
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Beauty Glow Makeup
+  </footer>
+
+</body>
+</html>

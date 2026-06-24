@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pembayaran - Beauty Glow</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff6fa1, #ffb6c1);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #d63384;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .total {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #ff4081;
+      text-align: center;
+    }
+
+    .btn {
+      width: 100%;
+      margin-top: 20px;
+      padding: 12px;
+      background: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #e91e63;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      background: #ffb6c1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Beauty Glow Makeup</h1>
+    <p>Halaman Pembayaran</p>
+  </header>
+
+  <div class="container">
+
+    <h2>Form Pembayaran</h2>
+
+    <label>Nama Lengkap</label>
+    <input type="text" placeholder="Masukkan nama Anda">
+
+    <label>Nomor WhatsApp</label>
+    <input type="text" placeholder="08xxxxxxxxxx">
+
+    <label>Produk</label>
+    <select>
+      <option>Lipstik Matte - Rp45.000</option>
+      <option>Foundation Natural - Rp85.000</option>
+      <option>Eyeshadow Palette - Rp120.000</option>
+      <option>Blush On - Rp40.000</option>
+    </select>
+
+    <label>Metode Pembayaran</label>
+    <select>
+      <option>Transfer Bank</option>
+      <option>Dana</option>
+      <option>OVO</option>
+      <option>GoPay</option>
+    </select>
+
+    <div class="total">
+      Total: Rp (akan dihitung manual)
+    </div>
+
+    <button class="btn" onclick="alert('Pesanan berhasil dikirim!')">
+      Bayar Sekarang
+    </button>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Beauty Glow Makeup
+  </footer>
+
+</body>
+</html>
